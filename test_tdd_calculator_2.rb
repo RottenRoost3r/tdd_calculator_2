@@ -26,4 +26,8 @@ class TestCalculator2 < Minitest::Test
     	assert_equal(2, div_funk(4, 2))
     	assert_equal(5, div_funk(15, 3))
     end
+
+    def test_if_input_is_a_number
+    	assert_equal(false, add_funk(3, "poopy"))
+    end
 end
