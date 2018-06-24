@@ -24,5 +24,6 @@ class TestCalculator2 < Minitest::Test
 
     def test_assert_that_divide_function_divides
     	assert_equal(2, div_funk(4, 2))
+    	assert_equal(5, div_funk(15, 3))
     end
 end
