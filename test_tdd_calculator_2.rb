@@ -16,4 +16,8 @@ class TestCalculator2 < Minitest::Test
     	assert_equal(2, sub_funk(3, 1))
     	assert_equal(5, sub_funk(15, 10))
     end
+
+    def test_assert_that_multiply_function_multiplies
+    	assert_equal(8, mult_funk(4, 2))
+    end
 end
