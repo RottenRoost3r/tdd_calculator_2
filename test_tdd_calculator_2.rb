@@ -33,4 +33,8 @@ class TestCalculator2 < Minitest::Test
     	assert_equal(false, mult_funk(3, "3"))
     	assert_equal(false, div_funk(3, "3"))
     end
+
+    def test_if_unable_to_divide_by_zero
+    	assert_equal(false, div_funk(10, 0))
+    end
 end
