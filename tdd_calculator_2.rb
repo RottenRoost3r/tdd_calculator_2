@@ -9,3 +9,7 @@ end
 def mult_funk(a, b)
 	a*b
 end
+
+def div_funk(a, b)
+	a/b
+end
