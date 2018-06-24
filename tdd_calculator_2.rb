@@ -5,3 +5,7 @@ end
 def sub_funk(a, b)
 	a-b
 end
+
+def mult_funk(a, b)
+	a*b
+end
