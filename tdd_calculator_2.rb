@@ -18,6 +18,7 @@ def add_funk(a, b)
 end
 
 def sub_funk(a, b)
+	unless class_check(a, b); return false; end
 	a-b
 end
 
