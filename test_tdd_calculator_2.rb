@@ -7,7 +7,9 @@ class TestCalculator2 < Minitest::Test
         assert_equal(1, 1)
     end
     
-    def test_assert_that_one_plus_one_is_two
+    def test_assert_that_add_function_adds
     	assert_equal(2, add_funk(1, 1))
+    	assert_equal(8, add_funk(2, 6))
     end
+
 end
