@@ -28,6 +28,6 @@ class TestCalculator2 < Minitest::Test
     end
 
     def test_if_input_is_a_number
-    	assert_equal(false, add_funk(3, "poopy"))
+    	assert_equal(false, add_funk(3, "3"))
     end
 end
