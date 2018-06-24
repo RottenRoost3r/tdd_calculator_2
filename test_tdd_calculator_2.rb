@@ -31,5 +31,6 @@ class TestCalculator2 < Minitest::Test
     	assert_equal(false, add_funk(3, "3"))
     	assert_equal(false, sub_funk(3, "3"))
     	assert_equal(false, mult_funk(3, "3"))
+    	assert_equal(false, div_funk(3, "3"))
     end
 end
