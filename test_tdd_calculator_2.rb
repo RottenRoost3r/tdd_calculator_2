@@ -14,5 +14,6 @@ class TestCalculator2 < Minitest::Test
 
     def test_assert_that_subtract_function_subtracts
     	assert_equal(2, sub_funk(3, 1))
+    	assert_equal(5, sub_funk(15, 10))
     end
 end
