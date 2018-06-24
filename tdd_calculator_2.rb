@@ -23,6 +23,7 @@ def sub_funk(a, b)
 end
 
 def mult_funk(a, b)
+	unless class_check(a, b); return false; end
 	a*b
 end
 
